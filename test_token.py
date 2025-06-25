@@ -3,7 +3,7 @@ import asyncio
 from telegram import Bot
 
 async def test_bot():
-    bot = Bot(token='7837956110:AAH8lpaOxPQR2V9BDIrbUNNoTqbnTTENq3w')
+    bot = Bot(token='BOT_TOKEN')
     try:
         me = await bot.get_me()
         print(f"Bot is working: {me}")
